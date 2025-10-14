@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Galaxy Quest - The Ultimate Adventure</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: radial-gradient(ellipse at bottom, #2b0040 0%, #0d001a 100%);
+      color: #e0cfff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+      background-size: cover;
+    }
+
+    .container {
+      text-align: center;
+      background: rgba(45, 0, 75, 0.7);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 30px 10px rgba(150, 0, 255, 0.4);
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      color: #d6b3ff;
+      text-shadow: 0 0 10px #a74cff, 0 0 20px #6f2dbd;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      color: #c8a9f0;
+    }
+
+    .btn-download {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      color: #fff;
+      background: linear-gradient(145deg, #8a2be2, #4b0082);
+      border: none;
+      border-radius: 30px;
+      text-decoration: none;
+      box-shadow: 0 0 20px #9d00ff;
+      transition: all 0.3s ease;
+    }
+
+    .btn-download:hover {
+      background: linear-gradient(145deg, #9d00ff, #6a0dad);
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #c833ff;
+    }
+
+    .galaxy {
+      margin-top: 40px;
+      width: 100px;
+      height: 100px;
+      background: radial-gradient(circle at center, #fff, #9d00ff, #4b0082);
+      border-radius: 50%;
+      animation: spin 10s linear infinite;
+      box-shadow: 0 0 20px #a64dff;
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Galaxy Quest</h1>
+    <p>Embark on an epic journey across the stars. Are you ready to explore the unknown?</p>
+    <a class="btn-download" href="download_link_here.zip" download>Download Game</a>
+    <div class="galaxy"></div>
+  </div>
+</body>
+</html>
+
+
+
